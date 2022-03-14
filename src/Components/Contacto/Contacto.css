@@ -1,0 +1,113 @@
+.contactenos{	
+	font-family: 'Lato', sans-serif;
+	display: grid;
+}
+
+.bg-image{
+	background: url('../../Assets/ApretonManos.jpeg');
+	height: 920px;
+	position: relative;
+	background-size: cover;
+	background-position: 35% 25%;
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+}
+
+.contactenos-titutlo{
+	text-align: center;
+    font-size: 4VW;
+	color: white;
+}
+
+form{
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	position:absolute;
+	padding: 20px;
+	background-color: transparent;
+	width: 100%;
+	padding:20px;
+	margin: auto;
+
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width: 70%;
+	padding:5px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:white;
+	margin: 30px 0;
+	display:inline-block;
+    font-size: 150%;
+}
+
+#message{
+    font-size: 150%;
+    font-family: 'Lato', sans-serif;
+    margin:20px 0;
+}
+
+.recaptcha{
+	padding: 15px 0px 30px 0px;
+}
+
+.boton {
+	font-size: 150%;
+}
+
+.wrapper-contacto{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.formulario{
+	padding-left: 250px;
+}
+
+.informacion{
+	color: white;
+	text-align: center;
+	padding-right: 100px;
+}
+
+.icon-informacion{
+	text-align: center;
+}
+
+.telefono, .email-icon, .ubicacion{
+	font-size: 80px !important;
+}
+
+@media (max-width: 900px) {
+	.contactenos-titutlo{
+		font-size: 45px;
+	}	
+
+	.wrapper-contacto{
+		display: block;
+	}
+
+	.formulario{
+		padding-left: 40px;
+	}
+
+	.bg-image{
+		height: 1500px;
+		position: relative;
+		background-size: auto;
+		filter: blur(8px);
+		-webkit-filter: blur(8px);
+		background-position: 35% 25%;
+	}
+
+	.informacion{
+		color: white;
+		text-align: center;
+		padding-top: 50px;
+		padding-right: 30px;
+	}
+}

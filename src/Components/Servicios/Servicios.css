@@ -1,0 +1,71 @@
+.servicios{
+    padding-top: 1%;
+    font-family: 'Lato', sans-serif;
+    background-color: whitesmoke;
+}
+
+.titulo-servicios{
+    text-align: center;
+    font-size: 4VW;
+}
+
+.titulo-s{
+    text-align: center;
+    color: white;
+}
+
+.wrapper-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.wrapper-servicios > div {
+    position: relative;
+    height: auto;
+    flex-grow: 1;
+    width: calc(100% * (1/4) - 10px - 1px);
+    margin: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    padding-bottom: 25px;
+    background-color: steelblue;
+}
+
+.wrapper-servicios > div::after{
+    padding-bottom: 250px;
+}
+
+.calculadora, .cuenta, .work{
+    font-size: 130px !important;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.icon-servicios{
+    text-align: center;
+}
+
+.procesos-contables, .procesos-remuneraciones, .asesoria-laboral{
+    font-size: 2vw;
+    padding: 50px;
+}
+
+@media (max-width:900px) {
+    .wrapper-servicios > div {
+        width: calc(100% * (1/2) - 10px - 1px);
+        margin: 35px;
+        padding: 10px;
+        padding-bottom: 25px;
+    }
+
+    .titulo-servicios{
+        font-size: 45px;
+    }
+
+    .procesos-contables, .procesos-remuneraciones, .asesoria-laboral{
+        font-size: 30px;
+        padding: 50px;
+    }
+}
