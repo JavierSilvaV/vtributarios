@@ -12,6 +12,7 @@
 .titulo-s{
     text-align: center;
     color: white;
+    font-size: 2vw;
 }
 
 .wrapper-servicios{
@@ -62,6 +63,12 @@
 
     .titulo-servicios{
         font-size: 45px;
+    }
+
+    .titulo-s{
+        text-align: center;
+        color: white;
+        font-size: 30px;
     }
 
     .procesos-contables, .procesos-remuneraciones, .asesoria-laboral{
