@@ -23,12 +23,12 @@ function Footer() {
 
   <div>
     <i className="fa fa-map-marker"></i>
-    <p><span>Paseo Ahumada 312, Of. 715</span> Santiago Centro, RM</p>
+    <p><span>Avenida 2 Sur 870, oficina 818</span> Talca</p>
   </div>
 
   <div>
     <i className="fa fa-phone"></i>
-    <p>5464656</p>
+    <p>+56 9 7217 2916</p>
   </div>
 
   <div>
@@ -47,7 +47,7 @@ function Footer() {
 
   <div className="footer-icons">
     <a href="https://www.facebook.com/spbox.cl" target="_blank" rel="noopener noreferrer"><Facebook style={{fontSize: 35}}/><i className="facebook"></i></a>
-    <a href="https://www.instagram.com/spboxcl/" target="_blank" rel="noopener noreferrer"><Instagram style={{fontSize: 35}}/><i className="instagram"></i></a>
+    <a href="https://www.instagram.com/vtributaria_cl/" target="_blank" rel="noopener noreferrer"><Instagram style={{fontSize: 35}}/><i className="instagram"></i></a>
     <a href="https://www.linkedin.com/company/spbox" target="_blank" rel="noopener noreferrer"><LinkedIn style={{fontSize: 35}}/><i className="linkedin"></i></a>
   </div>
 

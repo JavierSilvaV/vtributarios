@@ -80,13 +80,13 @@ function Contacto() {
             <Email className="email-icon"></Email>
             </div>
             <h1>Escríbenos</h1>
-            <p>sorellana@lsauditores.cl</p>
+            <p>contacto@vtriburaria.cl</p>
             <div  className="icon-informacion">
             <Location className="ubicacion"></Location>
             </div>
             <h1>Visítanos</h1>
-            <p>Av. Las Condes 10.465, Oficina 932, Torre A</p>
-            <p>Las Condes – Región Metropolitana</p>
+            <p>Avenida 2 Sur 870, oficina 818</p>
+            <p>Talca – Región del Maule</p>
             <p>Chile</p>
         </div>
         </div>

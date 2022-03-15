@@ -16,14 +16,14 @@ function App() {
       <Contacto />
       <Footer />
 
-      <div
-        href="https://wa.me/5695474650"
+      <a
+        href="https://wa.me/+56972172916"
         className="whatsapp_float"
         target="_blank"
         rel="noopener noreferrer"
       >
       <i className="fa fa-whatsapp whatsapp-icon"></i>
-      </div>
+      </a>
     </div>
   );
 }
