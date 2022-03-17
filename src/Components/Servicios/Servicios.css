@@ -18,7 +18,8 @@
 .wrapper-servicios{
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
+    margin: 10px; 
+    padding-bottom: 50px;
 }
 
 .wrapper-servicios > div {
@@ -26,22 +27,17 @@
     height: auto;
     flex-grow: 1;
     width: calc(100% * (1/4) - 10px - 1px);
-    margin: 20px;
+    margin: 20px 40px 20px 40px;
     margin-bottom: 50px;
     padding: 10px;
     padding-bottom: 25px;
     background-color: steelblue;
 }
 
-.wrapper-servicios > div::after{
-    padding-bottom: 250px;
-}
-
 .calculadora, .cuenta, .work{
-    font-size: 130px !important;
+    font-size: 10vw !important;
     color: white;
     cursor: pointer;
-    
 }
 
 .icon-servicios{
@@ -51,6 +47,14 @@
 .procesos-contables, .procesos-remuneraciones, .asesoria-laboral{
     font-size: 2vw;
     padding: 50px;
+}
+
+.procesos-contables{
+    background-color: white;
+}
+
+.asesoria-laboral{
+    background-color: white;
 }
 
 @media (max-width:900px) {
@@ -74,5 +78,9 @@
     .procesos-contables, .procesos-remuneraciones, .asesoria-laboral{
         font-size: 30px;
         padding: 50px;
+    }
+
+    .calculadora, .cuenta, .work{
+        font-size: 150px !important;
     }
 }

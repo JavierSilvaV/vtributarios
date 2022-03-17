@@ -5,7 +5,7 @@
 
 .bg-image{
 	background: url('../../Assets/ApretonManos.jpeg');
-	height: 920px;
+	height: 800px;
 	position: relative;
 	background-size: cover;
 	background-position: 35% 25%;
@@ -19,67 +19,41 @@
 	color: white;
 }
 
-form{
+.wrapper-contacto{
 	left: 0; 
 	right: 0; 
 	margin-left: auto; 
 	margin-right: auto; 
 	position:absolute;
-	padding: 20px;
 	background-color: transparent;
 	width: 100%;
-	padding:20px;
 	margin: auto;
-
-}
-
-form input[type="text"],
-form input[type="email"]{
-	width: 70%;
-	padding:5px 10px;
-	border:1px solid #f6f6f6;
-	border-radius:3px;
-	background-color:white;
-	margin: 30px 0;
-	display:inline-block;
-    font-size: 150%;
-}
-
-#message{
-    font-size: 150%;
-    font-family: 'Lato', sans-serif;
-    margin:20px 0;
-}
-
-.recaptcha{
-	padding: 15px 0px 30px 0px;
-}
-
-.boton {
-	font-size: 150%;
-}
-
-.wrapper-contacto{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
-.formulario{
-	padding-left: 250px;
 }
 
 .informacion{
+	display: grid; 
+	grid-template-columns: auto auto auto auto; 
+	gap: 25px 25px; 
 	color: white;
-	text-align: center;
-	padding-right: 100px;
+	padding-top: 2%;
 }
 
 .icon-informacion{
 	text-align: center;
+	font-size: 1.5vw;
 }
 
-.telefono, .email-icon, .ubicacion{
-	font-size: 80px !important;
+.telefono, .email-icon, .ubicacion, .instagram{
+	font-size: 120px !important;
+	color: white;
+}
+
+.icon-informacion > a:link{
+	color: white;
+}
+
+.wrapper-contacto > div{
+	padding: 10px;
 }
 
 @media (max-width: 900px) {
@@ -87,16 +61,8 @@ form input[type="email"]{
 		font-size: 45px;
 	}	
 
-	.wrapper-contacto{
-		display: block;
-	}
-
-	.formulario{
-		padding-left: 40px;
-	}
-
 	.bg-image{
-		height: 1500px;
+		height: 1600px;
 		position: relative;
 		background-size: auto;
 		filter: blur(8px);
@@ -105,9 +71,14 @@ form input[type="email"]{
 	}
 
 	.informacion{
+		display: grid; 
+		grid-template-columns: auto; 
+		gap: 25px 25px; 
 		color: white;
-		text-align: center;
-		padding-top: 50px;
-		padding-right: 30px;
+		padding-top: 2%;
+	}
+
+	.icon-informacion{
+		font-size: 25px;
 	}
 }
